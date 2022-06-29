@@ -19,9 +19,15 @@ public class Method_02_Test {
         // TODO créer une méthode String format()
         // TODO la méthode retourne une chaîne de la forme [<nb_personnes> persons]
         // TODO exemple de résultat : "[14 persons]", "[30 persons]"
+        public default String format() {
+        	
+        }
+        
     }
     // end::IDao[]
 
+    
+    
     // tag::DaoA[]
     class DaoA implements IDao {
 
